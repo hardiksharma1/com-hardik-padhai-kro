@@ -4,11 +4,11 @@ import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.hardik.padhai.karo.com_hardik_padhai_kro.bean.EmployeeBean;
+import com.hardik.padhai.karo.com_hardik_padhai_kro.service.EmployeeServiceImpl;
 
 @RestController
 @RequestMapping("/ade")
